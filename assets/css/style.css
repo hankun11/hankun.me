@@ -1,0 +1,335 @@
+	
+	/*Font size for body text 18px*/
+	/*Container Description 16px*/
+
+
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body p {
+            /*font-style: italic;*/
+            font-weight: 300; /* You specify the number you see next to the fonts to change from light to bold ie you would put 700 etc. etc. */
+        }
+
+    .heading-picture {
+    	position: relative;
+    	margin: 0 auto;
+    	top:0px;
+    	width: 100%;
+    	height: 225px;
+    	/*background-color: #fff;*/
+    	opacity: .75;
+    	background-image: url("../../images/gtrbackground.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+
+    }
+
+    .soundcloud {
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-bottom: 20px;
+    }
+
+	.avatar-heading {	
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 0;
+		/*border: 1px solid blue;*/
+	}
+
+	.avatar-heading .avt {
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+		border-radius: 10px;
+    	background-image: url("../../images/linkedinHead.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;		
+    	opacity: .8;
+    	margin-bottom: 10px;
+	}
+
+	.avatar-heading .avt:hover {
+		opacity: .7;
+	}	
+
+	/*Avatar Subheading*/
+	#nameAv {
+		color: #fff;
+		font-family: 'opensans-light', sans-serif;
+		margin-bottom: 7px;
+		font-size: 22px;
+	}
+
+	#subtitle {
+		font-family: 'opensans-light', sans-serif;
+		font-size: 12px;
+		margin-bottom: 3px;
+		color: rgba(255,255,255,0.5);
+
+	}
+
+	#email {
+		font-family: 'opensans-light', sans-serif;
+		font-size: 11px;
+		margin-bottom: 3px;
+		color: rgba(255,255,255,0.5);
+	}
+
+	/*Music Section*/
+	.inner h2 {
+		text-align: center;
+	}
+
+    #intro a {
+    	color: #203040;
+    }
+
+	.music-headline {
+		border-bottom: 3px solid rgb(17, 171, 176);
+		padding: 8px;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
+
+	#music-text {
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
+		line-height: 175%;
+		/*border: 1px solid green;*/
+	}
+
+	#music-text a {
+		/*text-decoration: underline-dotted;*/
+		color: #E6567A;
+		opacity: .8;
+
+	}
+	.features section {
+		min-height: 250px;
+		text-align: center;
+	}
+	.feature-pic {
+		/*border: 1px solid yellow;*/
+		border: 2px solid white;
+		border-radius: 2px;
+		box-shadow: 1px 1px 1px rgb(136, 136, 136);
+		height: 100%;
+		width: 100%;
+	}
+
+	.no-border {
+		border: none;
+		box-shadow: none;
+	}
+
+	.bandPicOne {
+		background-image: url("../../images/Dann_Zinn.jpg");
+		background-size: cover;
+	}
+
+	.bandPicTwo {
+		background-image: url("../../images/trio.jpg");
+		background-size: cover;		
+
+	}
+
+	.youtube-video {
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+
+	/*Tech Section*/
+	.tech-section {
+		/*text-align: center;*/
+		position: relative;
+		padding: 10px;
+		width: 100%;
+		height: 250px;
+	}
+
+	.tech-section .headline {
+		width: 100%;
+		height: 250px;
+		position: relative;
+		/*border: 1px solid green;*/
+	}
+
+	.icon-section {
+		position: relative;
+		width: 31%;
+		height: 100%;
+		left: 0;
+		/*border: 1px solid green;*/
+
+	}
+	.text-section {
+		position: relative;
+		width: 69%;
+		height: 100%;
+		right: 0;
+		/*border: 1px solid green;*/
+
+	}
+
+	.text-section a {
+		color: #008891;
+
+	}
+	.code-icon {
+		position: absolute;
+		width: 160px;
+		height: 150px;
+		/*border: 1px solid blue;*/
+		/*margin: 0 auto;*/
+		top: 50%;
+		margin-top: -75px;
+		left: 24%;
+		/*background-image: url("../../images/Octocat.png");*/
+	}
+
+	.code-icon:hover {
+		opacity: .7;
+		cursor: pointer;
+	}
+
+	.code-head {
+		text-align: center;
+	}
+
+	.tech-headline {
+		padding: 8px;
+		width: 100%;
+		position: absolute;
+		/*border: 1px solid green;*/
+		top: 50%;
+		margin-top: -60px;
+
+	}		
+
+	.tech-intro-text {
+		font-size: 16px;
+		font-family: 'opensans-light', sans-serif;
+		text-align: center;		
+		line-height: 175%;	
+		padding: 10px;
+		padding-top: 30px;	
+	}
+
+	.portfolio {
+		position: relative;
+		height: 900px;
+		width: 100%;
+		/*border: 1px solid green;*/
+	}
+
+	.port-row {
+		position: relative;
+		height: 50%;
+	}
+	.portfolio-container {
+		position: relative;
+		width: 48%;
+		height: 95%;
+		display: inline-block;
+		border: 1px solid silver;
+		border-radius: 6px;
+		box-shadow: 1px 1px 1px rgb(136, 136, 136);
+		background: #EDF9FF;
+	}
+
+	.portfolio-header {
+		position: relative;
+		top: 0;
+		height: 40%;
+		width: 100%;
+		border-bottom: 1px solid #D1D5D8;
+		/*border: 1px solid green;*/
+	}
+
+	.portfolio-section {
+		position: relative;
+		bottom: 0;
+		height: 60%;
+		width: 100%;
+		/*border: 1px solid yellow;	*/
+		padding: 10px;	
+	}
+
+	.portfolio-section p {
+		color: black;
+	}
+
+	.port-one {
+		float: left;
+	}
+
+	.port-two {
+		float: right;
+	}
+
+
+	/*Events Contact Section*/
+	.contact-headline {
+		border-bottom: 3px solid #47D2E9;
+		padding: 8px;
+	}		
+
+	.contact a{
+		font-size: 16px;
+		color: black;
+	}
+
+	.secondAvt {
+		height: 150px;
+		width: 150px;
+		border: 2px solid white;
+		border-radius: 70px;
+		opacity: .7;
+	}
+
+	.secondAvt:hover {
+		opacity: .4;
+
+	}
+	.events-text {
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
+		line-height: 175%;
+	}			
+
+	.past-gigs {
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 5px;
+		margin-top: 25px;
+	}
+
+	#gigs {
+		font-size: 12px;
+		font-family: 'opensans-light', sans-serif;
+		text-align: center;
+		list-style-type: none;
+	}
+
+	.bio-headline {
+		border-bottom: 3px solid #53DF83;
+		padding: 8px;
+	}	
+
+	.bio-text {
+		font-size: 16px;
+		font-family: 'opensans-light', sans-serif;
+		text-align: center;		
+		line-height: 175%;	
+		padding: 10px;
+		padding-top: 30px;			
+
+	}
